@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Login To National Book store</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="catalogue.html">Catalogue</a>
+    </nav>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="catalogue.html" methor="GET">
+            <label for="student-id">Student ID</label>
+            <input type="text" id="student-id" name="student-id"required>
+        <label for="branch">Branch</label>
+        <select id="branch" name="branch">
+            <option value="cse">Computer Science</option>
+            <option value="ece">Electronics & Communication</option>
+            <option value="mech">Mechanical Engineering</option>
+            <option value="civil">Civil Engineering</option>
+            <option value="it">Information Technology</option>
+        </select>
+        <input type="submit" value="Login">
+        </form>
+        </div>
+</body>
+</html>
